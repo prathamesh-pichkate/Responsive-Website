@@ -1,0 +1,44 @@
+body{
+    display: flex;
+  flex-direction: column;
+    margin:20px 50px 50px 50px;
+    background-color: antiquewhite;
+}
+
+h1{
+    text-align: center;
+}
+
+.head1 {
+   color:#0174BE;
+}
+
+.head2{
+    color:#0174BE;
+}
+
+
+.limg{
+    width:50%;
+}
+
+.rimg{
+    width:50%;
+}
+
+img{
+    float:left;
+    margin: 20px;
+}
+   @media (min-width:200px) and (max-width:650px){
+    .leftcard{
+        display:inline-block;
+        float: left;
+        clear:both;
+    }
+
+    .rightcard{
+        display:inline;
+    }
+
+   }  
