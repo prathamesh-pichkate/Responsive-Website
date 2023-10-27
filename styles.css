@@ -30,10 +30,9 @@ img{
     float:left;
     margin: 20px;
 }
-   @media (min-width:200px) and (max-width:650px){
+   @media (max-width:650px){
     .leftcard{
         display:inline-block;
-        float: left;
         clear:both;
     }
 
