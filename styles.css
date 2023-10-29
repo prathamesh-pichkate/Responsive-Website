@@ -1,43 +1,52 @@
-body{
-    display: flex;
-  flex-direction: column;
-    margin:20px 50px 50px 50px;
+body {
+    
+    flex-direction: column;
+    margin: 20px 50px 50px 50px;
     background-color: antiquewhite;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
 .head1 {
-   color:#0174BE;
+    color: #0174BE;
 }
 
-.head2{
-    color:#0174BE;
+.head2 {
+    color: #0174BE;
+}inline
+
+.complete {
+    display: flex;
+    gap: 20px;
 }
 
-
-.limg{
-    width:50%;
+.limg {
+    width: 45%;
 }
 
-.rimg{
-    width:50%;
+.rimg {
+    width: 45%;
 }
 
-img{
-    float:left;
+img {
+    float: left;
     margin: 20px;
 }
-   @media (max-width:650px){
-    .leftcard{
-        display:inline-block;
-        clear:both;
+
+@media (max-width: 650px) {
+    .leftcard {
+        display: inline;
+        text-align: justify;
+        float: left;
+        clear: both;
+        width: 45%; /* Set a width to fit both .leftcard and .rightcard on the same line */
     }
 
-    .rightcard{
-        display:inline;
+    .rightcard {
+        display: inline;
+        float: left; /* Change float to left to ensure both elements are inline */
+        width: 45%; /* Set a width to fit both .leftcard and .rightcard on the same line */
     }
-
-   }  
+}
